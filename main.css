@@ -2,6 +2,18 @@
 
 body {
   margin: 40px auto;
-  width: 400px;
+  width: 100%;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+.bar {
+  shape-rendering: crispEdges;
+  fill: #ccc;
+}
+
+.bar.below {
+  fill: #888;
 }
