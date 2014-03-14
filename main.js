@@ -47,7 +47,7 @@ d3.json('data.json', function (histogram) {
           }
         });
       });
-      setTimeout(poll, 10000);
+      setTimeout(poll, 15000);
     });
   });
 });
